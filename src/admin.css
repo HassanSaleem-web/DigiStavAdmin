@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b071f;
+    color: white;
+  }
+  
+  .admin-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* SIDEBAR */
+  .sidebar {
+    width: 240px;
+    background: #020014;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .sidebar .brand {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .sidebar nav button {
+    background: transparent;
+    border: none;
+    color: #aaa;
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .sidebar nav button.active {
+    background: #3b0764;
+    color: #fff;
+    border-radius: 8px;
+  }
+  
+  /* CONTENT */
+  .content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .card {
+    background: #1e1b2e;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .stat-card {
+    background: #3b0764;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .stats-row {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .doc-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .doc-table th, .doc-table td {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+  }
+  
+  button.danger {
+    background: #b91c1c;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+  }
+  
+  /* CHAT */
+  .chat-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .chat-msg.user {
+    background: #1e3a8a;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .chat-msg.assistant {
+    background: #047857;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
